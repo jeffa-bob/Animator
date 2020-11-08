@@ -1,3 +1,0 @@
-﻿namespace UnoAnimator.Skia.Gtk
-{
-}
