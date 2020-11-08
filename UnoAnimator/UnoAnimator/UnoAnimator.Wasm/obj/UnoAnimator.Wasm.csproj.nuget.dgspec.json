@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Reposs\\UnoAnimator\\UnoAnimator\\UnoAnimator\\UnoAnimator\\UnoAnimator.Wasm\\UnoAnimator.Wasm.csproj": {}
+  },
+  "projects": {
+    "E:\\Reposs\\UnoAnimator\\UnoAnimator\\UnoAnimator\\UnoAnimator\\UnoAnimator.Wasm\\UnoAnimator.Wasm.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Reposs\\UnoAnimator\\UnoAnimator\\UnoAnimator\\UnoAnimator\\UnoAnimator.Wasm\\UnoAnimator.Wasm.csproj",
+        "projectName": "UnoAnimator.Wasm",
+        "projectPath": "E:\\Reposs\\UnoAnimator\\UnoAnimator\\UnoAnimator\\UnoAnimator\\UnoAnimator.Wasm\\UnoAnimator.Wasm.csproj",
+        "packagesPath": "C:\\Users\\brody\\.nuget\\packages\\",
+        "outputPath": "E:\\Reposs\\UnoAnimator\\UnoAnimator\\UnoAnimator\\UnoAnimator\\UnoAnimator.Wasm\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\brody\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Filter": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SkiaSharp.Views.Uno": {
+              "target": "Package",
+              "version": "[2.80.2, )"
+            },
+            "Uno.UI.RemoteControl": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Uno.UI.WebAssembly": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Uno.Wasm.Bootstrap": {
+              "target": "Package",
+              "version": "[1.3.4, )"
+            },
+            "Uno.Wasm.Bootstrap.DevServer": {
+              "target": "Package",
+              "version": "[1.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
